@@ -1,0 +1,24 @@
+.wrapperUserMenu {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  display: block;
+  background-color: antiquewhite;
+  color: rgb(57, 23, 112);
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px 15px;
+  box-shadow: 0 0.5px 3px rgba(33, 14, 64, 0.6);
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(255, 194, 103);
+  color: rgb(33, 14, 64);
+}
+
+.userName {
+  color: rgb(33, 14, 64);
+}

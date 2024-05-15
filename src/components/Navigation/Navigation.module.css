@@ -1,0 +1,13 @@
+.wrapperNav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 18px;
+}
+.navLink {
+  font-weight: 600;
+  color: rgb(33, 14, 64);
+}
+.active {
+  color: rgb(255, 194, 103);
+}
