@@ -12,14 +12,15 @@
   display: block;
   font-size: 16px;
   padding: 8px;
-  border: 1px solid grey;
-  border-radius: 3px;
+  border-radius: 5px;
   max-height: 35px;
-  background-color: rgb(210, 207, 207);
+  background-color: antiquewhite;
+  color: rgb(57, 23, 112);
+  box-shadow: 0 0.5px 3px rgba(33, 14, 64, 0.6);
 }
 
 .button:hover,
 .button:focus {
-  background-color: rgb(198, 145, 248);
-  border-color: blueviolet;
+  background-color: rgb(255, 194, 103);
+  color: rgb(33, 14, 64);
 }
