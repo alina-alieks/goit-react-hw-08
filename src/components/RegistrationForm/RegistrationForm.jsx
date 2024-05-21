@@ -70,7 +70,7 @@ export default function RegistrationForm() {
           />
         </label>
         <button className={css.button} type="submit">
-          Log In
+          Register
         </button>
       </Form>
     </Formik>
