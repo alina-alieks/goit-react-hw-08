@@ -14,7 +14,7 @@ export default function SearchBox() {
 
   return (
     <label className={css.labelFilter}>
-      Find contact by name
+      Find contact by name or number
       <input
         className={css.inputFilter}
         type="text"
