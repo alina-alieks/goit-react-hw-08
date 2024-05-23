@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { fetchContacts } from "../../redux/contacts/operations";
 import { selectLoading, selectError } from "../../redux/contacts/selectors";
+import { Toaster } from "react-hot-toast";
 
 import css from "./ContactsPage.module.css";
 
@@ -25,6 +26,7 @@ export default function ContactsPage() {
       {isLoding && <p>Please wait...</p>}
       {error && <p>{error}</p>}
       <ContactList />
+      <Toaster />
     </div>
   );
 }
