@@ -3,9 +3,34 @@
   flex-direction: column;
   gap: 8px;
 }
-
+.wrapContact {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 300px;
+  border: 1px solid rgb(33, 14, 64);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 12px;
+  box-shadow: 0 0.5px 3px rgba(33, 14, 64, 0.6);
+}
 .icon {
   margin-right: 8px;
+}
+
+.iconChangeName,
+.iconChangeNumber {
+  display: none;
+  margin-left: 30px;
+}
+
+.wrapName:hover .iconChangeName {
+  display: inline-block;
+}
+
+.wrapNumber:hover .iconChangeNumber {
+  display: inline-block;
 }
 
 .button {
@@ -23,4 +48,46 @@
 .button:focus {
   background-color: rgb(255, 194, 103);
   color: rgb(33, 14, 64);
+}
+.buttonSave {
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnClose,
+.btnChange {
+  background-color: inherit;
+  color: rgb(57, 23, 112);
+  margin-left: auto;
+}
+.btnClose:hover,
+.btnClose:focus,
+.btnChange:hover,
+.btnChange:focus {
+  color: rgb(255, 194, 103);
+}
+
+.input {
+  border: none;
+  outline: none;
+  width: 150px;
+  background-color: transparent;
+}
+.wrapName,
+.wrapNumber {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 180px;
+}
+
+.wrapName:hover,
+.wrapName:focus,
+.wrapName:active,
+.wrapNumber:hover,
+.wrapNumber:focus,
+.wrapNumber:active {
+  box-shadow: 0 0.5px 3px rgba(33, 14, 64, 0.6);
+  border-radius: 5px;
 }
